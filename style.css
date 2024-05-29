@@ -1,0 +1,161 @@
+body {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial;
+
+}
+
+
+.one_div {
+  background-color: black;
+  width: 30%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.two_div {
+  background-color: white;
+  width: 55%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact_details {
+  display: flex;
+  flex-direction: column;
+ 
+ 
+}
+.contact_icons{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+    margin-bottom: -30px;
+    
+  
+
+}
+.icm{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+}
+.education {
+  background-color: black;
+  color: white;
+  padding-left: 40px;
+  padding-top: 30px;
+}
+.expertise {
+  background-color: #ebebeb;
+  padding-left: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.expertize_content{
+ display: flex;
+ flex-direction: row;
+}
+
+
+.contact_details {
+  background-color: #ebebeb;
+  padding-left: 40px;
+}
+.small_line {
+  border-top: 3px solid #ffc905;
+  width: 50px;
+  margin-top: 12px;
+}
+.personal_details {
+
+  background-color: #ebebeb;
+   padding-left: 40px;
+  padding-top: 17px;
+  padding-bottom: 127px;  
+  
+}
+.work_experience {
+  padding-left: 40px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.ref{
+  padding:10px ;
+}
+.reference {
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+}
+.reference_1 {
+  padding-right: 60px;
+}
+.image {
+  position: relative;
+  display: block;
+}
+.imtag {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background-color: #ffc905;
+  color: black;
+  display: line;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: -10px;
+  margin-left: 1px;
+  padding-top: 12px;
+
+  width: 260px;
+  height: 30px;
+}
+.interest{
+  margin-top:-40px ;
+  padding-left:40px;
+}
+.each_interest{
+    padding-top:10px;
+    margin-top: -30px;
+    padding-right: 40px;
+    
+}
+
+.interest_icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+   
+
+}
+
+.mid_line{
+    border-top: 3px solid #ffc905;
+    
+  margin-top: 12px;
+  }
+.sm_line{
+    border-top: 3px solid black;
+    margin-top: 12px;
+}
+
+.container {
+    background-color: #ffc905; 
+    margin-top: -11px;
+    padding: 8px; 
+    display: inline-block;
+    height: 65px;
+    width:35px;
+    
+   
+  }
+
+  .container img {
+    display: block;
+     
+    height: auto; }
